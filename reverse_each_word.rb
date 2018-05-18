@@ -6,4 +6,3 @@ def reverse_each_word(str)
  reverse_ar.join(" ")
 end
 
-puts reverse_each_word("meow, mix")
