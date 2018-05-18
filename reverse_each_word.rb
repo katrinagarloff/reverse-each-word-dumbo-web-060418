@@ -1,7 +1,7 @@
 def reverse_each_word(str)
-  
+  reverse_ar = []
  str.split.collect do |word|
-    word.reverse
+    reverse_ar.push(word.reverse)
   end
  
 end
