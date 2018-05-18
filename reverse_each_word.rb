@@ -3,8 +3,8 @@ def reverse_each_word(str)
   
   str_ar.collect do |word|
     word.reverse
-    word.join
   end
+  str_ar.join
 end
 
 puts reverse_each_word("meow, mix")
