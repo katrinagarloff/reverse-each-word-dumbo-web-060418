@@ -1,10 +1,9 @@
 def reverse_each_word(str)
-  str_ar = str.split()
   
-  str_ar.collect do |word|
+ (str.split).collect do |word|
     word.reverse
   end
-  str_ar.join
+ 
 end
 
 puts reverse_each_word("meow, mix")
